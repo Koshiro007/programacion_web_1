@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'DM Serif Text', serif;
+    font-style: italic;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+
+    display: flex;
+    align-items: center;
+    min-width: 70vh;
+    position: relative;
+
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 25px;
+    color: rgb(38, 132, 175);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu .navga ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navga ul li a{
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 600;
+    color: rgb(158, 65, 65);
+    display: block;
+}
+
+.menu .navga ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.submenu{
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+table{
+    width: 100%;
+}
+
+th, td{
+    color: #000000;
+}
+
+.borrar{
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+}
+
+.bg{
+    position: absolute;
+    width: 500px;
+    top: 50px;
+    right: 5;
+    z-index: 1;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+}
+
+.header-txt{
+    width: 60%;
+    margin-right: 80px;
+    padding-top: 200px;
+}
+
+.header-txt h1{
+
+    font-size: 55px;
+    line-height: 65px;
+    color: rgb(251, 255, 0);
+    margin-bottom: 35px;
+}
+
+.header-txt p{
+    font-size: 55px;
+    color: black;
+    margin-bottom: 45px;
+}
+
+.header-txt span{
+    color: black;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 13px 45px;
+    border-radius: 25px;
+    background-color: rgb(143, 74, 41);
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.btn-1:hover{
+    background-color:  rgb(167, 115, 91);
+}
+
+.bolso{
+    width: 650px;
+}
+
+h2{
+    font-size: 45px;
+    line-height: 55px;
+    color: #101010;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 16px;
+    color: #101010;
+    margin-bottom: 45px;
+}
+
+.bolso-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bolso-1{
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    box-sizing: 0 0 20px;
+}
+
+.info{
+   padding: 100px 0;
+   position: relative; 
+}
+
+.info.bg3{
+    position: relative;
+}
+
+.info.bg2{
+    position: absolute;
+    
+}
+
+
+
